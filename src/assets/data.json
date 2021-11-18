@@ -1,0 +1,214 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "User One",
+            "image": "./assets/images/user_one.jpg"
+        },
+        {
+            "id": 2,
+            "name": "User Two",
+            "image": "./assets/images/user_two.jpg"
+        },
+        {
+            "id": 3,
+            "name": "User Three",
+            "image": "./assets/images/user_three.jpg"
+        }
+    ],
+    "map": {
+        "zoom": 11,
+        "coordinates": {
+            "lat": 53.5750572,
+            "lng": 9.9821128
+        },
+        "markers": [
+            {
+                "title": "Hamburger Flughafen",
+                "descriptionShort": "Der Flughafen Hamburg, Eigenbezeichnung Hamburg Airport, seit 2016 auch Hamburg Airport Helmut Schmidt, ist der internationale Flughafen der Stadt Hamburg. Er ist der älteste und fünftgrößte Flughafen Deutschlands",
+                "descriptionLong": "Der Flughafen Hamburg, Eigenbezeichnung Hamburg Airport, seit 2016 auch Hamburg Airport Helmut Schmidt, ist der internationale Flughafen der Stadt Hamburg. Er ist der älteste und fünftgrößte Flughafen Deutschlands",
+                "city": "Hamburg",
+                "country": "Deutschland",
+                "date": "10.03.2016",
+                "users": [
+                    1,2,3
+                ],
+                "coordinates": {
+                    "lat": 53.6336252,
+                    "lng": 9.9952188
+                },
+                "thumbnail": {
+                    "small": "./assets/images/hamburg_airport.jpg",
+                    "big": "./assets/images/hamburg_airport.jpg"
+                },
+                "images": [
+                    {
+                        "title": "Hamburg Airport",
+                        "description": "Das ist ein Bild vom Hamburg Airport",
+                        "files": {
+                            "small": "./assets/images/hamburg_airport.jpg",
+                            "big": "./assets/images/hamburg_airport.jpg"
+                        }
+                    },
+                    {
+                        "title": "Hamburg Airport",
+                        "description": "Das ist ein Bild vom Hamburg Airport",
+                        "files": {
+                            "small": "./assets/images/hamburg_airport.jpg",
+                            "big": "./assets/images/hamburg_airport.jpg"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Elbphilharmonie",
+                "descriptionShort": "Die Elbphilharmonie ist ein im November 2016 fertiggestelltes Konzerthaus in Hamburg. Sie wurde mit dem Ziel geplant, ein neues Wahrzeichen der Stadt und ein „Kulturdenkmal für alle“ zu schaffen.",
+                "descriptionLong": "Die Elbphilharmonie ist ein im November 2016 fertiggestelltes Konzerthaus in Hamburg. Sie wurde mit dem Ziel geplant, ein neues Wahrzeichen der Stadt und ein „Kulturdenkmal für alle“ zu schaffen.",
+                "coordinates": {
+                    "lat": 53.5413338,
+                    "lng": 9.9819334
+                },
+                "city": "Hamburg",
+                "country": "Deutschland",
+                "date": "12.06.2012",
+                "users": [
+                    2
+                ],
+                "thumbnail": {
+                    "small": "./assets/images/elphiharmonie.jpg",
+                    "big": "./assets/images/elphiharmonie.jpg"
+                },
+                "images": [
+                    {
+                        "title": "Elphiharmonie",
+                        "description": "Das ist ein Bild von der Elphiharmonie",
+                        "files": {
+                            "small": "./assets/images/elphiharmonie.png",
+                            "big": "./assets/images/elphiharmonie.png"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Alster",
+                "descriptionShort": "Die Alster ist ein 56 Kilometer langer Nebenfluss der Elbe und fließt durch Süd-Holstein und Hamburg. Der bekannteste und prägnanteste Teil der Alster ist der Alstersee, der im innerstädtischen Gebiet Hamburgs durch die Binnen- und Außenalster gebildet wird",
+                "descriptionLong": "Die Alster ist ein 56 Kilometer langer Nebenfluss der Elbe und fließt durch Süd-Holstein und Hamburg. Der bekannteste und prägnanteste Teil der Alster ist der Alstersee, der im innerstädtischen Gebiet Hamburgs durch die Binnen- und Außenalster gebildet wird",
+                "coordinates": {
+                    "lat": 53.5579694,
+                    "lng": 10.0043626
+                },
+                "city": "Hamburg",
+                "country": "Deutschland",
+                "date": "07.02.2020",
+                "users": [
+                    1,3
+                ],
+                "thumbnail": {
+                    "small": "./assets/images/alster.jpg",
+                    "big": "./assets/images/alster.jpg"
+                },
+                "images": [
+                    {
+                        "id": 30,
+                        "title": "Bild",
+                        "description": "Das ist ein Bild von der Alster",
+                        "files": {
+                            "small": "./assets/images/alster.png",
+                            "big": "./assets/images/alster.png"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Steinwerder",
+                "descriptionShort": "Steinwerder ist ein im Hamburger Hafen gelegener Stadtteil im Bezirk Hamburg-Mitte der Freien und Hansestadt Hamburg.",
+                "descriptionLong": "Steinwerder ist ein im Hamburger Hafen gelegener Stadtteil im Bezirk Hamburg-Mitte der Freien und Hansestadt Hamburg.",
+                "coordinates": {
+                    "lat": 53.5386399,
+                    "lng": 9.964773
+                },
+                "city": "Hamburg",
+                "country": "Deutschland",
+                "date": "13.06.2020",
+                "users": [
+                    2
+                ],
+                "thumbnail": {
+                    "small": "./assets/images/steinwerder.jpg",
+                    "big": "./assets/images/steinwerder.jpg"
+                },
+                "images": [
+                    {
+                        "id": 40,
+                        "title": "Bild",
+                        "description": "Das ist ein Bild von Steinwerder",
+                        "files": {
+                            "small": "./assets/images/steinwerder.png",
+                            "big": "./assets/images/steinwerder.png"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Finkenwerder",
+                "descriptionShort": "Finkenwerder (Schreibweise des nördlichen, hamburgischen Teils bis 1937 Finkenwärder, plattdeutsch Finkwarder oder Finkenwarder – wörtlich „Finkeninsel“) ist eine ehemalige Elbinsel und heute ein Stadtteil im Bezirk Hamburg-Mitte der Freien und Hansestadt Hamburg.",
+                "descriptionLong": "Finkenwerder (Schreibweise des nördlichen, hamburgischen Teils bis 1937 Finkenwärder, plattdeutsch Finkwarder oder Finkenwarder – wörtlich „Finkeninsel“) ist eine ehemalige Elbinsel und heute ein Stadtteil im Bezirk Hamburg-Mitte der Freien und Hansestadt Hamburg.",
+                "coordinates": {
+                    "lat": 53.5364645,
+                    "lng": 9.7642591
+                },
+                "city": "Hamburg",
+                "country": "Deutschland",
+                "date": "21.10.2018",
+                "users": [
+                    1,2
+                ],
+                "thumbnail": {
+                    "small": "./assets/images/finkenwerder.jpg",
+                    "big": "./assets/images/finkenwerder.jpg"
+                },
+                "images": [
+                    {
+                        "id": 40,
+                        "title": "Bild",
+                        "description": "Das ist ein Bild von Finkenwerder",
+                        "files": {
+                            "small": "./assets/images/finkenwerder.png",
+                            "big": "./assets/images/finkenwerder.png"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Hagenbecks Tierpark",
+                "descriptionShort": "Der Tierpark Hagenbeck ist ein Tierpark in Hamburg. Der im Stadtteil Stellingen gelegene Tierpark ist ebenso wie das 2007 daneben eröffnete Tropen-Aquarium Hagenbeck in Familienbesitz.",
+                "descriptionLong": "Der Tierpark Hagenbeck ist ein Tierpark in Hamburg. Der im Stadtteil Stellingen gelegene Tierpark ist ebenso wie das 2007 daneben eröffnete Tropen-Aquarium Hagenbeck in Familienbesitz.",
+                "coordinates": {
+                    "lat": 53.5931044,
+                    "lng": 9.9416893
+                },
+                "city": "Hamburg",
+                "country": "Deutschland",
+                "date": "26.08.2019",
+                "users": [
+                    1,2,3
+                ],
+                "thumbnail": {
+                    "small": "./assets/images/hagenbecks_tierpark.jpg",
+                    "big": "./assets/images/hagenbecks_tierpark.jpg"
+                },
+                "images": [
+                    {
+                        "id": 40,
+                        "title": "Bild",
+                        "description": "Das ist ein Bild von Hagenbecks Tierpark",
+                        "files": {
+                            "small": "./assets/images/hagenbecks_tierpark.png",
+                            "big": "./assets/images/hagenbecks_tierpark.png"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

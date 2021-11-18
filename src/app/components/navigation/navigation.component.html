@@ -1,0 +1,53 @@
+<div class="navigation__buttons">
+    <ul>
+        <li>
+            <component-button 
+                [buttonText]="'Alle anzeigen'"
+                (clickFromButtonToNavigation)="onClickShowAllMarkers()"
+                [isActive]="showAllMarkers">
+            </component-button>
+        </li>
+        <li>
+            <component-button 
+                [buttonText]="'Umgebung'"
+                (clickFromButtonToNavigation)="onClickShowViewPortMarkers()"
+                [isActive]="showDynamicallyMarkers">
+            </component-button>
+        </li>
+    </ul>
+</div>
+
+<div class="navigation__info">
+    {{ (navigationMarkers | visibleMarker).length }} Treffer
+</div>
+
+<div class="navigation__markers">
+    <ul>
+        <li *ngFor="let marker of (navigationMarkers | visibleMarker)">
+            <div class="navigation__users">
+                <div class="navigation__user" *ngFor="let userId of marker.users">
+                    <div class="navigation__user-image">
+                        <img 
+                            [src]="indexedUsersById[userId].image" 
+                            alt="{{ indexedUsersById[userId].name }}"
+                            title="{{ indexedUsersById[userId].name }}" />
+                    </div>
+                </div>
+            </div>
+            <div class="navigation__description">
+                <div class="navigation__description-title">
+                    {{ marker.title }}
+                </div>
+                <div class="navigation__description-text">
+                    {{ marker.descriptionShort }}
+                </div>
+                <div class="navigation__description-city">
+                    {{ marker.city }}, {{ marker.country }}, {{ marker.date }}
+                </div>
+            </div>
+            <a href="#" class="navigation__move-to" (click)="onClickPanToMarker(marker)">
+                <span>&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</div>

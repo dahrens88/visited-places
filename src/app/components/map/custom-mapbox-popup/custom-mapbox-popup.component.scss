@@ -1,0 +1,24 @@
+:host {
+    display: block;
+}
+
+.custom-popup {
+    position: relative;
+    text-align: center;
+
+    &__image > img {
+        max-width: 80px;
+        max-height: 80px;
+        display: block;
+    }
+
+    &__counter {
+        width: 20px;
+        position: absolute;
+        top: calc(50% - 15px);
+        left: calc(50% - 15px);
+        color: #FFF;
+        background: rgba(0,0,0,0.8);
+        padding: 5px;
+    }
+}

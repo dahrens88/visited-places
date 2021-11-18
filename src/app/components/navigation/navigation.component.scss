@@ -1,0 +1,117 @@
+:host {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    width: 300px;
+    height: 100%;
+    background: #f6f6f6;
+    font-weight: 300;
+    line-height: 1.4;
+    box-shadow: 4px 2px 15px -4px rgba(0,0,0,0.25);
+}
+
+.navigation {
+    &__buttons {
+        height: 60px;
+    }
+
+    &__buttons > ul {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    &__buttons > ul > li {
+        width: 100%;
+        position: relative;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        height: 20px;
+    }
+
+    &__markers {
+        overflow-y: auto;
+        height: calc(100% - 110px);
+        margin:10px 0;
+    }
+
+    &__markers > ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__markers > ul > li {
+        width: calc(100% - 20px);
+        padding: 15px 45px 15px 15px;
+        margin: 10px 10px 0 10px;
+        background: #FFF;
+        box-sizing: border-box;
+        position: relative;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &__users {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+
+    &__user {
+        margin-right: 10px;
+    }
+
+    &__user-image > img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    &__description-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    &__description-text {
+        margin-bottom: 10px;
+    }
+
+    &__description-city {
+        font-style: italic;
+        font-size: 10px;
+    }
+
+    &__thumbnail {
+        margin-bottom: 15px;
+    }
+
+    &__thumbnail > img {
+        max-height: 50px;
+        max-width: 50px;
+        display: block;
+    }
+
+    &__move-to {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 30px;
+        background: #217de6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #FFF;
+        font-size: 18px;
+    }
+}

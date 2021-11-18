@@ -1,0 +1,11 @@
+<component-navigation
+    [navigationMarkers]="navigationMarkers"
+    [isDynamicallyMarkers]="isDynamicallyMarkers"
+    [users]="data.users"
+    (clickFromNavigationToApp)="onToggleNavigation($event)">
+</component-navigation>
+<component-map 
+    [data]="data"
+    [isDynamicallyMarkers]="isDynamicallyMarkers"
+    (updatedMarkers)="updateMarkers($event)">
+</component-map>
